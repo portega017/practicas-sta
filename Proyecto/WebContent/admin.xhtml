@@ -1,0 +1,59 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html"> 
+<ui:composition template="/WEB-INF/templates/layout.xhtml">
+	<ui:define name="TituloDocumento">Administrador</ui:define>
+	<ui:define name="TituloPagina"><h1>Bienvenido Administrador!</h1></ui:define>
+	<ui:define name="Contenido">
+		<h:form>
+			<table id="principal">
+				<tr>
+					<th>Tipo</th>
+					<th>Descripción</th>
+					<th>Precio</th>
+				</tr>
+				<tr>
+					<td id="columnasPrincipal">
+						<h:selectOneMenu id="tipos" value="#{productBean.entity.tipo}" required="true" requiredMessage="¡ERROR! Tienes que introducir el tipo.">
+						    <f:selectItem itemValue="#{null}" itemLabel="-- Seleccione uno --" itemDisabled="true" noSelectionOption="true"/>
+							<f:selectItems value="#{shopBean.tipos}"></f:selectItems>
+						</h:selectOneMenu>
+						<br />
+						<h:message for="tipos" style="color:red" />
+					</td>
+					<td id="columnasPrincipal">
+						<h:inputText id="nombre" value="#{productBean.entity.nombre}" required="true" requiredMessage="¡ERROR! Tienes que introducir el nombre." />
+						<br />
+						<h:message for="nombre" style="color:red" />
+					</td>
+					<td id="columnasPrincipal">
+						<h:inputText id="precio" value="#{productBean.entity.precio}" required="true" requiredMessage="¡ERROR! Tienes que introducir el precio." validatorMessage="" />
+						<br />
+						<h:message for="precio" style="color:red" />
+					</td>
+				</tr>
+			</table>
+			<table id="botones">
+				<tr>
+					<td>
+						<h:commandButton id="enviar" value="Enviar" action="#{shopBean.add(productBean.entity)}" />
+					</td>
+					<td>
+						<h:commandButton id="reset" value="Borrar" type="reset" />
+					</td>
+				</tr>
+			</table>
+		</h:form>
+		<br/>
+		<br/>
+		<h:panelGroup id="panel" rendered="#{shopBean.render}">
+			<h:outputText id="outputText" value="#{shopBean.altaProducto}" />
+		</h:panelGroup>	
+		<br/>
+		<br/>	
+		<h:outputLink id="linkUsuario" value="usuario.xhtml"><h3>Listado de productos</h3></h:outputLink>	
+	</ui:define>
+</ui:composition>
+</html>

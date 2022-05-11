@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+#botonesForm {
+	text-align: center;
+}
+
+body {
+	background: AliceBlue;
+	background-color: lightgreen;
+}
+
+.Alta {
+	color: black;
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+}
+
+table {
+	border: 1px;
+	border-color: black;
+	margin: auto; /*centrar la tabla*/
+}
+
+th {
+	color: white;
+	background-color: green;
+	text-align: center;
+}
+
+td {
+	text-align: center;
+	background-color: AliceBlue;
+}

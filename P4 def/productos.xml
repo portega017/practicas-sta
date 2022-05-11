@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventario>
+   <Producto>
+      <descripcion>Blade Runner</descripcion>
+      <precio>30.00 €</precio>
+      <referencia>0100001</referencia>
+      <tipo>DVD</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Ordenador Portatil Asus F540L</descripcion>
+      <precio>320.00 €</precio>
+      <referencia>3460002</referencia>
+      <tipo>Electrónica</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Programación en JAVA</descripcion>
+      <precio>26.00 €</precio>
+      <referencia>4580003</referencia>
+      <tipo>Libro</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Lo que el viento se llevó</descripcion>
+      <precio>24.00 €</precio>
+      <referencia>0100004</referencia>
+      <tipo>DVD</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Silla de cocina</descripcion>
+      <precio>10.00 €</precio>
+      <referencia>5700005</referencia>
+      <tipo>Muebles</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Camiseta Azul</descripcion>
+      <precio>5.00 €</precio>
+      <referencia>2340006</referencia>
+      <tipo>Ropa</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Manual de programación avanzada</descripcion>
+      <precio>15.00 €</precio>
+      <referencia>4580007</referencia>
+      <tipo>Libro</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Cargador de móvil</descripcion>
+      <precio>8.00 €</precio>
+      <referencia>3460008</referencia>
+      <tipo>Electrónica</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Acer Aspire E5</descripcion>
+      <precio>380.00 €</precio>
+      <referencia>3460009</referencia>
+      <tipo>Electrónica</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Medion Akoya E6247</descripcion>
+      <precio>351.00 €</precio>
+      <referencia>3460010</referencia>
+      <tipo>Electrónica</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Sofá Negro</descripcion>
+      <precio>102.00 €</precio>
+      <referencia>5700011</referencia>
+      <tipo>Muebles</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Mesa de cocina</descripcion>
+      <precio>22.00 €</precio>
+      <referencia>5700012</referencia>
+      <tipo>Muebles</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Harry Potter y el Cáliz de Fuego</descripcion>
+      <precio>13.00 €</precio>
+      <referencia>4580013</referencia>
+      <tipo>Libro</tipo>
+   </Producto>
+</inventario>

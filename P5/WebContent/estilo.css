@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+h1{
+	font-family: Tahoma, Verdana, sans-serif;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	color: blue;
+	text-align: center;
+}
+#tabla_principal {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	border: 1px;
+	border-color: black;
+	margin: auto; /*centrar la tabla*/
+	border-collapse: collapse;
+}
+#cabeceraTabla {
+	color: white;
+	background-color: green;
+	padding: 8px;
+	text-align: center;
+	font-size: 20px;
+	font-weight: normal;
+	padding: 8px;
+	border:1px; 
+	border-color:black;
+	border-collapse: collapse;
+	/*border-top: 4px;
+	border-bottom: 1px;*/
+}
+
+#columnas_Tprincipal {
+	text-align: center;
+	background-color: AliceBlue;
+	padding: 8px;
+	border-bottom: 1px;
+
+}
+
+tr:hover #columnas_Tprincipal {
+	background: #d0dafd;
+	color: #339;
+}
+#botonesForm {
+	text-align: center;
+	margin: auto;
+}
+
+#linkUsuario{
+	text-align: center;
+}

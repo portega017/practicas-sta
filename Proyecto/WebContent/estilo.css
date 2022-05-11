@@ -1,0 +1,106 @@
+@charset "UTF-8";
+
+body {
+	background-image: url("images/background-big.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: #464646;
+}
+
+h1{
+	font-family: Tahoma, Verdana, sans-serif;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black solid;
+	text-align: center;
+}
+
+h2{
+	font-family: Tahoma, Verdana, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	color: black solid;
+	text-align: center;
+}
+
+
+th{
+	border: 1px black solid;
+	background: rgb(167,170,176);
+	text-align: center;
+	padding: 10px;
+}
+
+#mensaje{
+	color: red solid;
+}
+
+#titulosTablaUsuario{
+	border: 1px black solid;
+	background: rgb(167,170,176);
+	text-align: center;
+	padding: 10px;
+	border: 1px black solid; 
+}
+
+#columnasPrincipal{
+	border: 1px black solid; 
+	background: rgb(224,224,224);
+	text-align: center;
+	padding: 5px;
+}
+
+#principal{
+	font-family: Arial helvetica serif;
+	border: 1px black solid; 
+	border-collapse: collapse;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 1px;
+	text-align: center;
+}
+
+#botones{
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Arial helvetica serif;
+}
+
+#enviar{
+	border-radius: 12px;
+	width: 80px;
+}
+
+#reset{
+	border-radius: 12px;
+	width: 80px;
+}
+
+#linkUsuario{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Arial helvetica serif;	
+}
+
+#panel{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Arial helvetica serif;
+	color: white solid;
+}
+
+#outputText{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: Arial helvetica serif;
+	color: white solid;
+}
+

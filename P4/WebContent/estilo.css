@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+#botonesForm {
+	text-align: center;
+}
+
+body {
+	background: AliceBlue;
+	background-color: lightgreen;
+}
+
+.Alta {
+	color: black;
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+}
+
+table {
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	border: 1px;
+	border-color: black;
+	margin: auto; /*centrar la tabla*/
+	border-collapse: collapse;
+}
+
+th {
+	color: white;
+	background-color: green;
+	padding: 8px;
+	text-align: center;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 8px;
+	border-top: 4px;
+	border-bottom: 1px;
+}
+
+td {
+	text-align: center;
+	background-color: AliceBlue;
+	padding: 8px;
+	border-bottom: 1px;
+
+}
+
+tr:hover td {
+	background: #d0dafd;
+	color: #339;
+}

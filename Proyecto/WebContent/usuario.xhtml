@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+<ui:composition template="/WEB-INF/templates/layout.xhtml">
+	<ui:define name="TituloDocumento">Usuario</ui:define>
+	<ui:define name="TituloPagina"><h1>Bienvenido Usuario!</h1></ui:define>
+	<ui:define name="Contenido">
+		<h2>Pagina de Compra-Venta</h2>
+		<br />
+		<table id="principal">
+			<tr>
+				<th id="titulosTablaUsuario">Referencia</th>
+				<th id="titulosTablaUsuario">Nombre</th>
+				<th id="titulosTablaUsuario">Tipo</th>
+				<th id="titulosTablaUsuario">Precio</th>
+			</tr>
+			<ui:repeat var="p" value="#{shopBean.prods}">
+				<tr>
+					<td id="columnasPrincipal">#{p.referencia}</td>
+					<td id="columnasPrincipal">#{p.nombre}</td>
+					<td id="columnasPrincipal">#{p.tipo}</td>
+					<td id="columnasPrincipal">#{p.precio}€</td>
+				</tr>
+			</ui:repeat>
+		</table>
+		<!--<h:dataTable id="tablaUsuario" value="#{shopBean.prods}" var="productos">
+			<h:column>
+				<f:facet id="columnasPrincipal" name="referencia">Referencia</f:facet>
+				#{productos.referencia}
+			</h:column>
+			<h:column>
+				<f:facet id="columnasPrincipal" name="tipo">Tipo</f:facet>
+				#{productos.tipo}
+			</h:column>
+			<h:column>
+				<f:facet id="columnasPrincipal" name="nombre">Nombre</f:facet>
+				#{productos.nombre}
+			</h:column>
+			<h:column>
+				<f:facet id="columnasPrincipal" name="precio">Precio</f:facet>
+				#{productos.precio}
+			</h:column>
+		</h:dataTable>-->
+	</ui:define>
+</ui:composition>
+</html>

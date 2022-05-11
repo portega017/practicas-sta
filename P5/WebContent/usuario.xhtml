@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<ui:composition template="/WEB-INF/templates/layout.xhtml">
+	<ui:define name="TituloDocumento">Página de Usuario</ui:define>
+	<ui:define name="TituloPagina">
+		<h1>Bienvenido a la Tienda Online</h1>
+	</ui:define>
+
+	<ui:define name="Contenido">
+		<table id="tabla_principal">
+			<tr>
+				<th id="cabeceraTabla">Referencia</th>
+				<th id="cabeceraTabla">Nombre</th>
+				<th id="cabeceraTabla">Tipo</th>
+				<th id="cabeceraTabla">Precio</th>
+
+			</tr>
+			<ui:repeat var="p" value="#{shopBean.prods}">
+				<tr>
+					<td id="columnas_Tprincipal">#{p.referencia}</td>
+					<td id="columnas_Tprincipal">#{p.nombre}</td>
+					<td id="columnas_Tprincipal">#{p.tipo}</td>
+					<td id="columnas_Tprincipal">#{p.precio}€</td>
+				</tr>
+			</ui:repeat>
+
+
+
+		</table>
+
+	</ui:define>
+
+</ui:composition>
+</html>

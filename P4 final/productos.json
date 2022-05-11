@@ -1,0 +1,75 @@
+{
+   "inventario" : {
+      "Producto" : [ {
+         "descripcion" : "Blade Runner",
+         "precio" : "30.00 €",
+         "referencia" : "0100001",
+         "tipo" : "DVD"
+      }, {
+         "descripcion" : "Ordenador Portatil Asus F540L",
+         "precio" : "320.00 €",
+         "referencia" : "3460002",
+         "tipo" : "Electrónica"
+      }, {
+         "descripcion" : "Programación en JAVA",
+         "precio" : "26.00 €",
+         "referencia" : "4580003",
+         "tipo" : "Libro"
+      }, {
+         "descripcion" : "Lo que el viento se llevó",
+         "precio" : "24.00 €",
+         "referencia" : "0100004",
+         "tipo" : "DVD"
+      }, {
+         "descripcion" : "Silla de cocina",
+         "precio" : "10.00 €",
+         "referencia" : "5700005",
+         "tipo" : "Muebles"
+      }, {
+         "descripcion" : "Camiseta Azul",
+         "precio" : "5.00 €",
+         "referencia" : "2340006",
+         "tipo" : "Ropa"
+      }, {
+         "descripcion" : "Manual de programación avanzada",
+         "precio" : "15.00 €",
+         "referencia" : "4580007",
+         "tipo" : "Libro"
+      }, {
+         "descripcion" : "Cargador de móvil",
+         "precio" : "8.00 €",
+         "referencia" : "3460008",
+         "tipo" : "Electrónica"
+      }, {
+         "descripcion" : "Acer Aspire E5",
+         "precio" : "380.00 €",
+         "referencia" : "3460009",
+         "tipo" : "Electrónica"
+      }, {
+         "descripcion" : "Medion Akoya E6247",
+         "precio" : "351.00 €",
+         "referencia" : "3460010",
+         "tipo" : "Electrónica"
+      }, {
+         "descripcion" : "Sofá Negro",
+         "precio" : "102.00 €",
+         "referencia" : "5700011",
+         "tipo" : "Muebles"
+      }, {
+         "descripcion" : "Mesa de cocina",
+         "precio" : "22.00 €",
+         "referencia" : "5700012",
+         "tipo" : "Muebles"
+      }, {
+         "descripcion" : "Harry Potter y el Cáliz de Fuego",
+         "precio" : "13.00 €",
+         "referencia" : "4580013",
+         "tipo" : "Libro"
+      }, {
+         "descripcion" : "Programación en JAVA",
+         "precio" : "15.00 €",
+         "referencia" : "4580014",
+         "tipo" : "Libro"
+      } ]
+   }
+}

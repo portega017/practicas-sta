@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventario>
+   <Producto>
+      <descripcion>Ordenador Portatil Asus F540L</descripcion>
+      <precio>320.00 €</precio>
+      <referencia>3461</referencia>
+      <tipo>Electrónica</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Silla de cocina</descripcion>
+      <precio>10.00 €</precio>
+      <referencia>5702</referencia>
+      <tipo>Muebles</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Camiseta Azul</descripcion>
+      <precio>5.00 €</precio>
+      <referencia>2343</referencia>
+      <tipo>Ropa</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Manual de programación avanzada</descripcion>
+      <precio>15.00 €</precio>
+      <referencia>4584</referencia>
+      <tipo>Libro</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Cargador de móvil</descripcion>
+      <precio>8.00 €</precio>
+      <referencia>3465</referencia>
+      <tipo>Electrónica</tipo>
+   </Producto>
+   <Producto>
+      <descripcion>Programación en JAVA</descripcion>
+      <precio>26.00 €</precio>
+      <referencia>4586</referencia>
+      <tipo>Libro</tipo>
+   </Producto>
+</inventario>

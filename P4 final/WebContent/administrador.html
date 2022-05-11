@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Administrador de tienda</title>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<link rel="icon" href="favicon.ico" type="image/icon type">
+
+
+
+<script type="text/javascript">
+	function mensajeError() {
+		var precio = document.getElementById("precio");
+		var descripcion = document.getElementById("descripcion");
+		if (precio.value == "") {
+			precio.style.backgroundColor = "yellow";
+		} else {
+			precio.style.backgroundColor = "white";
+
+		}
+		if (descripcion.value == "") {
+			descripcion.style.backgroundColor = "yellow";
+		} else {
+			descripcion.style.backgroundColor = "white";
+
+		}
+		var valoresAceptados = /^[0-9]+$/; //asignar todos los números a la variable valoresAceptados
+		if (precio.value == "" || descripcion.value == "") {
+			//	alert('El campo precio y/o descripción están vacíos');
+
+			return false;
+
+		} else if (precio.value.match(valoresAceptados)) {
+			precio.style.backgroundColor = "white";
+
+			return true;
+		} else {
+			alert('Introduce un número en el campo precio');
+			precio.style.backgroundColor = "yellow";
+
+			return false;
+		}
+
+	}
+</script>
+
+</head>
+<body>
+	<h1 style="font-family: Cambria; color:  blue; font-size: 50px;">Bienvenido a la administración de la tienda</h1>
+	<form action="http://localhost:8080/practica_4_final/ServletAdmin"
+		method="post" onsubmit="return mensajeError()" target="_blank">
+		<table border="1">
+			<tr>
+				<th>Tipo</th>
+				<th>Descripción</th>
+				<th>Precio</th>
+			</tr>
+			<tr>
+				<td><select id="tipo" name="tipo">
+
+						<option>Electrónica</option>
+						<option>Libro</option>
+						<option>DVD</option>
+						<option>Música</option>
+						<option>Ropa</option>
+						<option>Muebles</option>
+
+
+				</select></td>
+				<td><input id="descripcion" name="descripcion" type="text"
+					placeholder="Insertar descripción..."></td>
+				<td><input id="precio" name="precio" type="text"
+					placeholder="0€"></td>
+
+			</tr>
+
+		</table>
+
+		<div id="botonesForm">
+			<button type="submit" value="Enviar">Enviar</button>
+			<button type="reset" value="Reiniciar" class="botonForm">Reiniciar</button>
+		</div>
+	</form>
+
+
+</body>
+</html>

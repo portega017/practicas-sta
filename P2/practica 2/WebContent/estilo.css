@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+h1 {
+	color: blue;
+	text-align: center;
+}
+
+table {
+	border: 1px;
+	border-color: green;
+	margin: auto; /*centrar la tabla*/
+}
+
+th {
+	color: white;
+	background-color: green;
+	text-align: center;
+}
+
+td {
+	text-align: center;
+	background-color: AliceBlue;
+}

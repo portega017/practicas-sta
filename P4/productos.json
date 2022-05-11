@@ -1,0 +1,35 @@
+{
+   "inventario" : {
+      "Producto" : [ {
+         "descripcion" : "Ordenador Portatil Asus F540L",
+         "precio" : "320.00 €",
+         "referencia" : "3461",
+         "tipo" : "Electrónica"
+      }, {
+         "descripcion" : "Silla de cocina",
+         "precio" : "10.00 €",
+         "referencia" : "5702",
+         "tipo" : "Muebles"
+      }, {
+         "descripcion" : "Camiseta Azul",
+         "precio" : "5.00 €",
+         "referencia" : "2343",
+         "tipo" : "Ropa"
+      }, {
+         "descripcion" : "Manual de programación avanzada",
+         "precio" : "15.00 €",
+         "referencia" : "4584",
+         "tipo" : "Libro"
+      }, {
+         "descripcion" : "Cargador de móvil",
+         "precio" : "8.00 €",
+         "referencia" : "3465",
+         "tipo" : "Electrónica"
+      }, {
+         "descripcion" : "Programación en JAVA",
+         "precio" : "26.00 €",
+         "referencia" : "4586",
+         "tipo" : "Libro"
+      } ]
+   }
+}
